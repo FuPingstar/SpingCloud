@@ -13,6 +13,7 @@
 - http数据包大
 
 #### 微服务调用方式之ribbon实战 订单调用商品服务
+
 1. 创建order_service项目
 - 依赖
 ```
@@ -39,6 +40,7 @@
 4. 根据名称进行调用商品，获取商品详情
 
 #### Ribbon负载均衡
+
 __ribbon服务间调用负载均衡源码分析__
 + 完善下单接口
 
@@ -115,6 +117,7 @@ public interface IRule {
 ![负载均衡策略截图](/springcloud核心组件/images/负载均衡策略截图.png)
 
 #### 服务间调用之负载均衡策略调整实战
+
 __实战调整默认负载均衡策略实战__
 + 更改负载均衡策略 
 ```
@@ -191,6 +194,7 @@ SpringCloud的Fegin支持的一个中心概念是命名客户端。每个Fegin�
 ```
 
 #### Feign核心源码解读和服务调用方式ribbon和Feign选择
+
 + ribbon和feign两个区别和选择
 1. 选择Feign
 - 默认集成了ribbon
